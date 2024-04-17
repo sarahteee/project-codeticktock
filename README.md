@@ -12,5 +12,4 @@ Display witty comments about coding efficiency at regular intervals (e.g., every
 <img src="htmlcssjs.png" alt="HTML, CSS, JavaScript" width="200"/>
 
 ## Website Link
-[codeticktock](https://sarahteee.github.io/project-codeticktock/)
 https://sarahteee.github.io/project-codeticktock/
