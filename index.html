@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeTickTock</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="" width="100" alt="">
+        <span>CodeTickTock</span>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="timers-container">
+      <section class="timers">
+        <!-- Timer 1 -->
+        <div class="timer">
+          <input type="text" placeholder="Label" class="timer-label">
+          <input type="text" class="timer-display" placeholder="00:00" readonly>
+          <button class="control-btn start">Start</button>
+          <button class="control-btn stop">Pause</button>
+          <button class="control-btn restart">Restart</button>
+        </div>
+
+        <!-- Add Timer Button -->
+        <button class="add-timer-btn">+</button>
+      </section>
+    </div>
+
+    <div class="comment-container">
+      <section class="comment-section">
+        <!-- Comment Bubble -->
+        <div class="comment-bubble">
+          <p>Welcome to CodeTickTock, where the only bugs are features we haven't fully appreciated yet. Stay
+            tuned for more wisdom in 30 seconds.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="codeticktock.js"></script>
+</body>
+
+</html>
